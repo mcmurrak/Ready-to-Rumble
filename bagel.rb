@@ -40,4 +40,3 @@ module Sandwich
     end
   end
 end
-
