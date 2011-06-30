@@ -6,14 +6,14 @@ end
 
 class Bagel
   def initialize
-    @flavors = ['plain', 'poppy', 'everything']
+    @@flavors = ['plain', 'poppy', 'everything']
     @flavor = @flavors.rand
   end
   def add_topping (topping)
     puts "Which #{topping} would you like?"
   end
   def self.flavors
-    puts @flavors
+    puts @@flavors
   end
 end
 
